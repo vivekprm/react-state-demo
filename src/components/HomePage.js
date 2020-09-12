@@ -1,10 +1,11 @@
 import React from "react";
 
-function HomePage() {
+function HomePage(props) {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <h2>Home Page</h2>
+      <p>Hello {props.name}</p>
+    </>
   );
 }
 
