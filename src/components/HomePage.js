@@ -1,5 +1,10 @@
 import React from "react";
 
+/**
+ * props are immutable and passed from parent component to child component.
+ * And can't change props in child component.
+ * @param props
+ */
 function HomePage(props) {
   return (
     <>
