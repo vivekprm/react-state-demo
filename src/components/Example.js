@@ -23,13 +23,19 @@ function Example() {
   return (
     <>
       <input
+        class="form-control mr-sm-2"
         type="text"
         value={email}
         onChange={(event) => setEmail(event.target.value)}
       />
       <p>Hello {email}</p>
       <p>You clicked {count} times.</p>
-            <button onClick={() => setCount(count + 1)}>Click Me</button>
+      <button
+        class="btn btn-outline-success my-2 my-sm-0"
+        onClick={() => setCount(count + 1)}
+      >
+        Click Me
+      </button>
     </>
   );
 }
