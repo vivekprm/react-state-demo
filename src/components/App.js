@@ -13,24 +13,32 @@ function App() {
   return (
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <NavLink class="nav-link" to="/">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <NavLink className="nav-link" activeClassName="active" to="/">
               Home
             </NavLink>
           </li>
-          <li class="nav-item">
-            <NavLink class="nav-link" to="/about">
+          <li className="nav-item">
+            <NavLink className="nav-link" activeClassName="active" to="/about">
               About
             </NavLink>
           </li>
-          <li class="nav-item">
-            <NavLink class="nav-link" to="/example">
+          <li className="nav-item">
+            <NavLink
+              className="nav-link"
+              activeClassName="active"
+              to="/example"
+            >
               Example
             </NavLink>
           </li>
-          <li class="nav-item">
-            <NavLink class="nav-link" to="/courses">
+          <li className="nav-item">
+            <NavLink
+              className="nav-link"
+              activeClassName="active"
+              to="/courses"
+            >
               Courses
             </NavLink>
           </li>
